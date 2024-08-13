@@ -1,0 +1,1760 @@
+.wrapper {}
+
+.head {}
+
+[class*='__container'] {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+[class*='__title'] {
+    font-family: "Futura Md BT", sans-serif;
+    font-size: clamp(2rem, 1.273rem + 3.64vw, 4rem);
+    line-height: 6.25rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+[class*='__btn'] {
+    width: 8.1875rem;
+    height: 2.25rem;    
+    font-family: "Futura Bk BT", sans-serif;
+    font-size: 0.85rem;
+    border-radius: 2.25rem;
+    border: 1px solid #FFF;
+    /* padding: 1rem 1rem; */
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-page {
+    margin-left: 2.5rem;
+}
+
+.menu__list {}
+
+.menu__list+.menu__list {
+    margin-left: 1.45rem;
+}
+
+.menu__link {
+    font-family: "Futura Bk BT", sans-serif;
+    line-height: 1rem;
+    text-transform: uppercase;
+}
+
+.menu__logo {
+    margin-left: 14.35rem;
+}
+
+.menu-lists {
+    position: relative;
+    top: 0;
+    left: 3rem;
+}
+
+.menu-lists+.menu-lists {
+    margin-left: 2.5rem;
+
+}
+
+.menu-thumbs {
+    display: flex;
+}
+
+.menu-thumb {
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.content {
+    background-image: url('../img/decor.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.shoe-title {
+    font-family: 'Futura-Black', sans-serif;
+    /* font-size: 7rem; */
+    font-size: clamp(1.875rem, 0.167rem + 8.54vw, 7rem);
+    text-align: left;
+    font-weight: 700;
+    line-height: 8rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.06)0%, rgba(255, 255, 255, 0.02)100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 9rem;
+}
+
+.sup-up {
+    font-size: 3rem;
+}
+
+.svg-content {
+    min-width: 100%;
+    position: absolute;
+    top: 4rem;
+}
+
+.svg-contents {
+    position: absolute;
+    top: 3.5rem;
+    left: -1.5rem;
+    /* width: 175px; */
+    width: clamp(3.125rem, 0.521rem + 13.02vw, 10.938rem);
+}
+
+.svg-contents1 {
+    position: relative;
+    top: -15rem;
+    left: -1.5rem;
+    width: clamp(3.125rem, 0.521rem + 13.02vw, 10.938rem);
+    margin-bottom: 0;
+}
+
+.img-product {
+    background-image: url('../img/product1.png');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* width: 650px; */
+    width: clamp(25rem, 19.792rem + 26.04vw, 40.625rem);
+    /* height: 450px; */
+    height: clamp(20rem, 17.292rem + 13.54vw, 28.125rem);
+}
+
+.content__text {
+    font-family: "Futura Md BT", sans-serif;
+    max-width: 540px;
+    /* font-size: 3rem; */
+    font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
+    font-style: italic;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 0.48rem;
+    margin-bottom: 2rem;
+}
+
+.sup-littel {
+    font-size: 1rem;
+}
+
+
+.content__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 6.28rem;
+    left: 17rem;
+    padding: 0 15px;
+    margin-bottom: 10.25rem;
+}
+
+.content__prices {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.content__sizes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+.content__size {
+    padding-left: 30%;
+}
+
+.icon-compass {}
+
+.sup-specifical {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+/*=================================*/
+
+.slider {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slider-container {
+    transform: translateX(15%);
+}
+
+.slick-prev.slick-arrow {
+    transform: translateX(-350px);
+}
+
+.slick-next.slick-arrow {
+    transform: translateX(-1000px);
+}
+
+.img-sneakers {
+    width: 550px;
+    height: 210px;
+    margin-right: 3.5rem;
+    padding: 0 2.5rem 0 1rem;
+    object-fit: contain;
+}
+
+.flash {
+    display: inline-block;
+    transform: rotate(4.52deg);
+    color: #FFF;
+    min-width: 2000px;
+    font-family: "Futura XBlkCnIt BT";
+    font-size: 2rem;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3rem;
+    position: relative;
+}
+
+.flash1 {
+    transform: rotate(10.088deg);
+    color: #FFF;
+    background: rgba(255, 0, 0, 0.559);
+    min-width: 7000px;
+    font-family: "Futura XBlkCnIt BT";
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2rem;
+    margin-bottom: 10.64rem;
+}
+
+@keyframes flash-animation {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+
+    }
+}
+
+.flash, .flash1 {
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.flash {
+    animation: flash-animation 30s linear infinite;
+}
+
+.flash1 {
+    animation: flash-animation 30s linear infinite;
+    animation-delay: 1s;
+    margin-bottom: 0rem;
+}
+
+.previous {
+    background-image: none;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.title-center {
+    max-width: 38.1875rem;
+    margin: 0 auto 5rem auto;
+    height: 16.875rem;
+    text-align: center;
+}
+
+.crafted {
+    transform: rotate(-15.202deg);
+    color: rgba(255, 0, 0, 0.316);
+    font-style: oblique;
+}
+
+.footwear {
+    text-align: center;
+}
+
+.footwear__text {
+    max-width: 66.5rem;
+    margin: 0 auto;
+    height: 10.0625rem;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "Futura Bk BT";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-bottom: 5rem;
+}
+
+.footwear__btn {
+    cursor: pointer;
+}
+
+.find {
+    width: 8.1875rem;
+    height: 2.25rem;
+    font-family: "Futura Bk BT", sans-serif;
+    font-size: 0.85rem;
+    border-radius: 2.25rem;
+    border: 1px solid #FFF;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.sneak-bg {
+    background-image: url('../img/sneakers8.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: clamp(17rem, -1.773rem + 93.86vw, 68.625rem);
+    height: clamp(8.1rem, -1.158rem + 46.29vw, 33.56rem);
+    transform: translateY(-50%);
+    margin-left: -5%;
+}
+
+.chashes {
+    max-width: 100%;
+}
+
+.img-chashes {
+    position: relative;
+    top: 10rem;
+    left: 5rem;
+    width: clamp(4rem, 0.333rem + 18.33vw, 15rem);
+    height: clamp(4rem, 0.333rem + 18.33vw, 15rem);
+}
+
+.sellers {
+    margin-top: -15.25rem;
+    margin-bottom: 10.25rem;
+}
+
+
+.sellers__picture {
+    position: relative;
+    overflow: hidden;
+}
+
+.sellers__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.sellers__picture:hover .sellers__overlay {
+    opacity: 1;
+}
+
+.sellers__pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.sellers__picture {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.images-photo {
+    width: 418px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.sellers__genders {
+    max-width: 350px;
+    margin-right: 0;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #FFF;
+    font-family: "Futura Md BT";
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 4rem;
+    position: absolute;
+    top: 85%;
+    color: transparent;
+    -webkit-text-stroke: 0.07rem #32ff04;
+}
+
+.title-rotate {
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: "Futura XBlkCnIt BT";
+    font-size: clamp(4rem, 3.333rem + 3.33vw, 6rem);
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.516);
+    -webkit-text-stroke: 0.1rem #32ff04;
+    transform: rotate(-20deg);
+    margin-bottom: 0;
+}
+
+.title-time {
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 0.02rem #fff;
+    font-family: "Futura XBlkCnIt BT";
+    font-size: clamp(4rem, 3.333rem + 3.33vw, 6rem);
+    font-style: italic;
+    transform: translate(8.7%, -100%);
+}
+
+.sport-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.50rem;
+    margin-bottom: 3.19rem;
+}
+
+.sport-items2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    margin-bottom: 3.19rem;
+}
+
+
+.sport-sneakers {
+    border-radius: 0.525rem;
+    background: rgba(234, 0, 255, 0.1);
+    box-shadow: inset 1px 1px 25px rgba(234, 0, 255, 0.7);
+    mix-blend-mode: hard-light;
+    backdrop-filter: blur(9px);
+    filter: drop-shadow(25px 25px 200px #74ff55);
+}
+
+.sport-sneaker {
+    max-width: 100%;
+}
+
+.imgages-sneck {
+    width: 20.75rem;
+    height: 12.65em;
+    object-fit: cover;
+    transform: translateY(3.5rem);
+    margin: 0 auto;
+}
+
+.sport-sneaker2 {
+    max-width: 100%;
+}
+
+.imgages-snecks {
+    width: 25rem;
+    height: 3.80206rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.sport-descript {
+    font-family: "Futura LtCn BT", sans-serif;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.sports-btn {
+    display: block;
+    width: 12.75rem;
+    margin: 7.58rem auto 9.88rem auto;
+    border: 1px solid #ffffff;
+    padding: 1rem;
+    border-radius: 2.25rem;
+    color: #fff;
+}
+
+@keyframes rotateTitle {
+    0% {
+        transform: rotateX(90deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+.title-rotate {
+    animation: rotateTitle 5s ease-out;
+}
+
+.sport-sneakers {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.sport-sneakers.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.sport-sneakers:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(234, 0, 255, 0.3);
+}
+
+.imgages-sneck {
+    transition: transform 0.3s ease;
+}
+
+.sport-sneakers:hover .imgages-sneck {
+    transform: translateY(2.5rem) rotate(-5deg);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.sports-btn,
+.content__btn,
+.find,
+.footwear__btn,
+.modern__btn,
+.people__btn,
+.visionares__btn,
+.club-btn {
+    transition: background-color 0.3s ease;
+    animation: pulse 2s infinite;
+}
+
+[class*='__btn']:hover,
+.sports-btn:hover,
+.footwear__btn:hover,
+.find:hover .modern__btn:hover,
+.people__btn:hover,
+.visionares__btn:hover,
+.club-btn:hover {
+    animation: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.modern__items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.modern-pictures {
+    mix-blend-mode: soft-light;
+    transform: rotate(28deg);
+    opacity: 0.8;
+    filter: contrast(0.8);
+}
+
+.title-right {
+    width: 42.25rem;
+    font-family: "Futura Md BT", sans-serif;
+    font-size: clamp(2rem, 1.6rem + 2vw, 3.2rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.text-right {
+    width: 41.94rem;
+    height: auto;
+    font-size: clamp(1rem, 0.833rem + 0.83vw, 1.5rem);
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+.modern__btn {
+    display: block;
+    margin-bottom: 14.88rem;
+
+}
+
+.shoe {
+    margin-bottom: 10rem;
+}
+
+.title-shoe {
+    text-align: left;
+    font-family: "Futura Md BT", sans-serif;
+    font-size: clamp(2rem, 1.6rem + 2vw, 3.2rem);
+    line-height: 4rem;
+}
+
+.shoe__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shoe__item {
+    margin-right: 0;
+}
+
+.shoe__page {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.shoe__descr {
+    font-family: "Futura XBlkCnIt BT", sans-serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-bottom: 1.38rem;
+}
+
+.shoeprice {
+    color: #6c0289;
+    font-family: "Futura XBlkCnIt BT", sans-serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    line-height: 1rem;
+}
+
+.shoe__images {
+    background-image: url('../img/sneakers20.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15rem;
+    height: 9rem;
+    transform: rotate(-18deg);
+    margin-left: -2rem;
+}
+
+.shoe__images2 {
+    background-image: url('../img/sneakers21.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15rem;
+    height: 9rem;
+    transform: rotate(-18deg);
+    margin-top: -1rem;
+}
+
+.shoe__images3 {
+    background-image: url('../img/sneakers22.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15rem;
+    height: 9rem;
+    transform: rotate(-18deg);
+}
+
+.svg-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10.23em;
+    overflow: hidden;
+}
+
+.ticker {
+    width: 100%;
+    overflow: hidden;
+}
+
+.ticker-content {
+    display: flex;
+    animation: ticker 30s linear infinite;
+}
+
+.ticker-item {
+    flex-shrink: 0;
+    width: 12.5%;
+    /* 100% / 8 элементов */
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.people {
+    margin-bottom: 5rem;
+}
+
+.people__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-people {
+    max-width: 32.13rem;
+    line-height: normal;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.people__text {
+    width: 38.63rem;
+    text-align: left;
+}
+
+.people__btn {
+    display: block;
+    margin: 2.5rem 0;
+}
+
+.people__pictures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.piople-images {
+    transform: translate(145%, -60%);
+    width: 15rem;
+    height: 20rem;
+}
+
+.visionares {
+    margin-top: -5rem;
+    margin-bottom: 10rem;
+}
+
+.visionares__container {}
+
+.footwear {}
+
+.visionares__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background: radial-gradient(51% 51% at 51% 51%, rgba(255, 255, 255, 0.3)40%, rgba(255, 255, 255, 0.0)100%);
+    border-radius: 21.25rem;
+}
+
+.visionares__pictures {}
+
+
+.pictur-item {}
+
+.visionares__item {
+    width: 44.5rem;
+}
+
+.footwear__title {}
+
+.title-visionares {
+    font-size: clamp(1.8rem, 1.4rem + 2vw, 3rem);
+    padding: 0 15px;
+    margin-bottom: 2rem;
+}
+
+.visionares__text {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.visionares__item {}
+
+.footwear__title {}
+
+.title-visionares {
+    padding: 0 15px;
+}
+
+.crafted {}
+
+.visionares__page {
+    width: 100%;
+
+}
+
+.visionares__text {
+    font-family: "Futura Bk BT", sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-bottom: 1.5rem;
+}
+
+.visionares__subtext {
+    font-family: "Futura Hv BT", sans-serif;
+    text-transform: uppercase;
+}
+
+.visionares__text:nth-child(4) {
+    padding-bottom: 2rem;
+}
+
+.visionares__btn {
+    display: block;
+    width: 15rem;
+}
+
+.club {}
+
+.club__bg {
+    background-image: url('../img/sneakers27.png');
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    position: relative;
+    transform: translate(115%, -40%);
+    margin-bottom: 1.8rem;
+}
+
+.club__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    border: 1px solid #fff;
+    border-radius: 0.625rem;
+    backdrop-filter: blur(2px);
+}
+
+.club-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 4rem 2.5rem;
+}
+
+.club-title {
+    font-family: "Futura Md BT", sans-serif;
+    font-size: clamp(2rem, 1.273rem + 3.64vw, 4rem);
+    margin-bottom: 1rem;
+}
+
+.club__text {
+    font-family: "Futura Bk BT"б sans-serif;
+    font-size: clamp(1rem, 0.833rem + 0.83vw, 1.5rem);
+    text-transform: capitalize;
+    margin-bottom: 2.38rem;
+}
+
+.club-btn {
+    width: 8.1875rem;
+    height: 2.25rem;
+    font-family: "Futura Bk BT", sans-serif;
+    font-size: 0.85rem;
+    border-radius: 2.25rem;
+    border: 1px solid #FFF;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.club__logo {
+    margin-right: 2.5rem;
+    max-width: 100%;
+}
+
+.club-img {
+    width: 15.6rem;
+    height: 15.6rem;
+    object-fit: cover;
+}
+
+.svg-contents1 {
+    margin-bottom: -30rem;
+}
+
+.services {
+    margin-bottom: 6rem;
+}
+
+.services__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services__blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services__images {
+    margin-right: 1rem;
+}
+
+.services__title {
+    margin-bottom: 0.5rem;
+    font-family: "Futura Hv BT", sans-serif;
+    font-size: 1rem;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.services__text {
+    font-family: "Futura Bk BT";
+    text-transform: capitalize;
+}
+
+.options {
+    margin-bottom: 5rem;
+}
+
+.options__items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5.2rem;
+}
+
+.options__item {}
+
+.options__title {
+    font-family: "Futura LT", sans-serif;
+    font-size: clamp(1.8rem, 1.4rem + 2vw, 3rem);
+    width: 30.38rem;
+    font-weight: 700;
+    line-height: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+
+.options__input {
+    height: 2.2rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+    outline: none;
+    padding-left: 1rem;
+}
+
+.options__input::placeholder {
+    color: #a3a3a3;
+}
+
+.options__btn {
+    margin-left: -3.5rem;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+}
+
+.scroll-to-top {
+    width: 45px;
+    height: 45px;
+    border: 3px solid #000;
+    border-radius: 50%;
+    font-size: 2rem;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    display: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.options-svg {}
+
+.options__navigations {}
+
+.options__navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: start;
+}
+
+.options__block+.options__block {
+    margin-top: 3.2rem;
+}
+
+.options__block-title {
+    width: 9.9rem;
+    font-family: "Futura XBlkCnIt BT";
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.options__block-text {
+    font-family: "Futura LtCn BT";
+    font-size: 1.25rem;
+    width: 11rem;
+}
+
+.options__block-text+.options__block-text {
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+.foots {}
+
+
+
+.foots__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.foots__item {
+    display: flex;
+}
+
+.foots__text {
+    font-family: "Futura Bk BT";
+    line-height: 1rem;
+    text-transform: capitalize;
+    padding-right: 0.5rem;
+}
+
+.foots__icon+.foots__icon {
+    margin-left: 2.5rem;
+}
+
+/************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  adaptive site*/
+/* @media (orientation: portrait) and (max-width: 1380px) {} */
+@media (max-width: 1380px) {
+    .menu-lists {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .shoe-title {
+        font-weight: 400;
+        line-height: 5rem;
+        padding-top: 5rem;
+        text-align: center;
+    }
+
+    .content__block {
+        flex-wrap: wrap;
+    }
+
+    .img-product {
+        position: relative;
+        top: 0;
+        left: 10%;
+    }
+
+    .content__text {
+        width: 100%;
+    }
+
+    .slider {
+        margin-top: 35.25rem;
+        margin-bottom: 1.25rem;
+        margin-left: 0;
+    }
+
+    .slick-prev.slick-arrow {
+        display: none;
+    }
+
+    .slick-next.slick-arrow {
+        display: none;
+    }
+
+    .img-sneakers {
+        margin-right: 0;
+        padding: 0 2.5rem 0 1rem;
+        object-fit: contain;
+    }
+
+    [class*='__title'] {
+        margin-top: 1rem;
+        line-height: 4rem;
+    }
+
+    .title-center {
+        margin-bottom: 0;
+    }
+
+    .sneak-bg {
+        transform: translateY(-35%);
+    }
+
+    .sellers {
+        margin-top: -20%;
+        margin-bottom: 8rem;
+    }
+
+    .title-top {
+        margin-bottom: 2rem;
+    }
+
+    .sellers__pictures {
+        grid-template-columns: repeat(2, 1fr);
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    .sellers__genders {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .title-rotate {
+        margin-bottom: 3rem;
+    }
+
+    .sports-btn {
+        margin-bottom: 4.5rem;
+    }
+
+
+    .modern__items {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .title-right, .text-right {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .text-right {
+        text-align: justify;
+    }
+
+    .modern__btn {
+        display: inline-block;
+        margin-bottom: 3rem;
+    }
+
+    .title-shoe {
+        text-align: center;
+    }
+
+    .shoe {
+        margin-bottom: 10rem;
+    }
+
+    .shoe {
+        margin-bottom: 9rem;
+    }
+
+    .svg-block {
+        margin-bottom: 10rem;
+    }
+
+    .people__pictures {
+        display: grid;
+        grid-template-columns: repeat(1, 14rem);
+        gap: 20px;
+
+    }
+
+    .grid-item {
+        max-width: 100%;
+    }
+
+    .piople-images {
+        transform: translate(0, 0);
+    }
+
+    .club__items {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .club__items {
+        flex-wrap: wrap;
+    }
+
+    .services {
+        margin-top: -8rem;
+    }
+
+    .services__item {
+        margin-right: 1rem;
+    }
+
+    .services__title {
+        margin-bottom: -1rem;
+    }
+
+    .services__images {
+        margin-top: 2rem;
+    }
+
+    .options__items {
+        /* display: flex;
+        align-items: flex-start;
+        justify-content: space-between;*/
+        gap: 1.2rem;
+        flex-wrap: wrap;
+        align-items: space-between;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 1140px) {
+    .slider {
+        margin-top: 27.25rem;
+    }
+
+    .club__bg {
+        margin-bottom: 0rem;
+    }
+
+    .sellers__pictures {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .content__block {
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: -100px;
+        margin-left: -200px;
+    }
+
+    .slider {
+        min-width: 70%;
+        margin-top: 18.25rem;
+    }
+
+    .footwear__text {
+        text-align: left;
+    }
+
+    .sellers {
+        margin-bottom: 5rem;
+    }
+
+    .sellers__genders {
+        font-size: clamp(1.5rem, 4vw, 3rem);
+    }
+
+    .sellers__pictures {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+
+    .sellers__picture {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .sport-items, .sport-items2 {
+        flex-wrap: wrap;
+    }
+
+    .sports-btn {
+        margin-top: 0;
+    }
+
+    .shoe__items {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .shoe {
+        margin-bottom: 5rem;
+    }
+
+    .svg-block {
+        margin-bottom: 5rem;
+    }
+
+    .people__items {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .people__items {
+        margin-bottom: 3rem;
+    }
+
+    .visionares {
+        margin-top: -2rem;
+        margin-bottom: -55rem;
+    }
+
+    .visionares__items {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .visionares__item {
+        width: 100%;
+    }
+
+    .visionares__text {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .visionares__btn {
+        display: inline-block;
+    }
+
+    .pictur-items {
+        text-align: center;
+    }
+
+    .visionares__items {
+        align-items: center;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .svg-contents1 {
+        margin-bottom: 40rem;
+    }
+
+    .club {
+        margin-top: 60rem;
+        /* margin-bottom: -75rem; */
+    }
+
+    .club-title {
+        line-height: normal;
+    }
+
+    .club__text {
+        text-align: justify;
+    }
+
+    .services__items {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .services-item {
+        margin: 0 auto;
+    }
+
+    .options__title {
+        /* font-family: "Futura LT", sans-serif;
+        font-size: clamp(1.5rem, 1rem + 2.5vw, 3rem);
+        width: 30.38rem;
+        font-weight: 700;
+        line-height: 4rem;
+        text-transform: capitalize;
+        margin-bottom: 2rem; */
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+
+    form {
+        justify-content: center;
+    }
+
+    .options-svg {
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 650px) {
+    .navigation {
+        position: relative;
+    }
+
+    .menu__list {
+        margin-top: 1rem;
+    }
+
+    .menu__list+.menu__list {
+        margin-left: 2.5rem;
+    }
+
+    .menu-thumbs {
+        position: absolute;
+        top: 100%;
+        right: 50%;
+    }
+
+    .menu-search {
+        display: none;
+    }
+
+    .shoe-title {
+        font-weight: 400;
+        line-height: 3rem;
+        padding-top: 3rem;
+        text-align: center;
+    }
+
+    .content__list {
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -10%;
+        padding-left: 0;
+    }
+
+    .content__text {
+        width: 100%;
+        line-height: normal;
+    }
+
+    .content__prices {
+        justify-content: center;
+    }
+
+    .slider {
+        margin-top: 20.25rem;
+    }
+
+    .footwear__text {
+        line-height: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    [class*='__title'] {
+        margin-top: 1rem;
+        line-height: 2.7rem;
+    }
+
+    .title-center {
+        margin-bottom: -7rem;
+    }
+
+    .shoe__items {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .svg-closed {
+        max-width: 130%;
+        margin-left: 2.5rem;
+    }
+
+    .title-people {
+        text-align: center;
+    }
+
+    .people__text {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .svg-contents1 {
+        margin-bottom: 50rem;
+    }
+
+    .services {
+        margin-top: -12rem;
+    }
+
+    .services__items {
+        flex-direction: column;
+    }
+
+    .services__blocks {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .services__item {
+        min-width: 209px;
+        text-align: left;
+    }
+
+    .services-item {
+        display: inline-block;
+        margin: 0 0 0 -1rem;
+    }
+}
+
+@media (max-width: 545px) {
+    .menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+    }
+
+    .menu-btn {
+        display: inline-block;
+        width: 35px;
+        height: 20px;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        position: relative;
+        top: -1.5rem;
+        transition: all 0.8s linear;
+    }
+
+    .menu-btn .row {
+        width: 35px;
+        height: 2px;
+        background-color: #fff;
+        transition: all 0.8s linear;
+    }
+
+    .menu-btn::after,
+    .menu-btn::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 2px;
+        background-color: #fff;
+    }
+
+    .menu-btn::before {
+        top: 0;
+    }
+
+    .menu-btn::after {
+        bottom: 0;
+    }
+
+    .menu-btn span {
+        display: block;
+        height: 2px;
+        background-color: #fff;
+    }
+
+    .menu__list {
+        margin: 10px 0;
+    }
+
+    .menu__link {
+        padding: 10px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: #ffff;
+        font-size: 0.70rem;
+    }
+
+    .menu-btn.active .row:nth-child(2) {
+        display: none;
+    }
+
+    .menu-btn.active .row:nth-child(3) {}
+
+    .menu-btn.active+.menu {
+        display: inline-block;
+    }
+
+    .hidden {
+        transition: all 3s linear;
+        opacity: 0.1;
+    }
+
+    .menu__list+.menu__list {
+        margin-left: 2.5rem;
+    }
+
+    .content__text {
+        width: 71%;
+        margin: 0 auto 1rem -2rem;
+        font-size: 1rem;
+        text-align: center;
+        padding-right: 0.3rem;
+    }
+
+    .content__prices {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .content__price {
+        padding-bottom: 1rem;
+    }
+
+    .content__size {
+        padding-left: 0;
+    }
+
+    .slider {
+        margin-bottom: -1.25rem;
+    }
+
+    .images-photo {
+        width: clamp(18.438rem, -1.563rem + 100vw, 32.5rem);
+        height: clamp(20rem, 4rem + 80vw, 31.25rem);
+    }
+
+    .imgages-snecks {
+        width: 25rem;
+        height: 2.8rem;
+        margin-top: -0.5rem;
+    }
+
+    .svg-closed {
+        max-width: 150%;
+        margin-left: 2.5rem;
+    }
+
+    .scroll-to-top {
+        bottom: 110px;
+    }
+
+    .options-svg {
+        margin-left: 25%;
+    }
+
+    .footwear__text {
+        line-height: 1.2rem;
+        margin-bottom: 3rem;
+        font-size: 0.95em;
+    }
+
+    .foots__items {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .options__navigations {
+        text-align: center;
+        margin-bottom: 1.3rem;
+    }
+}
+
+
+
+
+
+
+.wc3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
